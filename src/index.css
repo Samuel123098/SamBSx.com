@@ -2,3 +2,7 @@ body {
     margin: 0;
    overflow-y: overlay;
 }
+html, body {
+
+    overflow-x: hidden;
+}
