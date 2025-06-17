@@ -1,17 +1,36 @@
-.ImageZoomHolder{
+html, body {
+ 
+  width: 100%;       /* Ensures html/body don't expand beyond viewport */
+  margin: 0;         /* Removes default browser margins */
+  padding: 0;        /* Removes default browser padding */
+}
+
+.Page2{
   width: 100vw;
   height: 100vh;
-  background-color: black;
-  position: fixed;
- 
+
 }
-.ImageZoomLength{
-  width: 100vw;
-  height: 200vh;
-  background-color: rgb(255, 0, 0);
+
+.ProjectsPage{
+  height: 100vh;
+  background: linear-gradient(2deg,rgb(27, 27, 27) 0%, rgb(41, 54, 59) 76%);
 }
-.ImageZoomReal{
-  width: 100%;
-  transform-origin: 40% 0%;
-  transform: scale(1.9);
+
+.ProjectHeader{
+  margin: 0px;
+  color: aliceblue;
+  font-size: 7vw;
+  font-family: Awaken;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.ProjectDesc{
+  margin: 0px;
+  color: aliceblue;
+  font-size: 1.8vw;
+  font-family: Awaken;
+  padding-left: 70px;
+  padding-top: 10px;
+  width: 40vw;
+  text-align: center;
 }
