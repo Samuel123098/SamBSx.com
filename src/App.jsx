@@ -4,7 +4,25 @@ import ScrollZoomImage from './components/zoomimg';
 import AnimateOnView from './components/reveal';
 
 function App() {
-  const zoomamount = 0; // Still not used, but kept for consistency
+  const zoomamount = 0
+
+  const elements = document.querySelectorAll('.AfterWards');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+
+        console.log('Element is visible:', entry.target);
+
+      } else {
+
+        console.log('Element is NOT visible:', entry.target);
+        
+      }
+    });
+  });
+
+  elements.forEach(el => observer.observe(el));
 
   return (
     <>
@@ -70,8 +88,9 @@ function App() {
       </AnimateOnView>
         </div>
       </div>
+      <div className='AfterWards'>
 
-
+      </div>
     </>
   );
 }
