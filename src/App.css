@@ -34,3 +34,18 @@ html, body {
   width: 40vw;
   text-align: center;
 }
+
+.OutSideContainer{
+
+  background-color: rgba(185, 228, 245, 0.164);
+  width: 50vw;
+  height: 50vw;
+  right: -48.5%;
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  bottom: 24vh;
+  
+}

@@ -2,6 +2,7 @@
 import './App.css';
 import ScrollZoomImage from './components/zoomimg';
 import AnimateOnView from './components/reveal';
+import ProjectCard from './components/projectcard';
 
 function App() {
   const zoomamount = 0
@@ -86,6 +87,12 @@ function App() {
                   transition={{ duration: 1.6, delay: 1, ease: [0.25, 0.1, 0.25, 1] }} >
                 <p className= "ProjectDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar risus efficitur, pellentesque mi et, euismod dui. Quisque iaculis tortor vel est suscipit, vitae lacinia neque tincidunt. Suspendisse nec dolor vitae urna dapibus finibus ut at mauris. Nunc ut malesuada felis. Fusce convallis, lacus sit amet pellentesque malesuada, urna lacus auctor neque, sit amet faucibus elit nunc sed neque</p>
       </AnimateOnView>
+        </div>
+        <div className='OutSideContainer'>
+          <ProjectCard></ProjectCard>
+          <ProjectCard></ProjectCard>
+          <ProjectCard></ProjectCard>
+          <ProjectCard></ProjectCard>
         </div>
       </div>
       <div className='AfterWards'>
