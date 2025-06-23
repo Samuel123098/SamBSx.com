@@ -84,15 +84,39 @@ function App() {
                   <AnimateOnView variants={{
                   hidden: { opacity: 0, y: 50 },
                   visible: { opacity: 1, y: 0 },}}
-                  transition={{ duration: 1.6, delay: 1, ease: [0.25, 0.1, 0.25, 1] }} >
+                  transition={{ duration: 1.6, delay: 0.8, ease: [0.25, 0.1, 0.25, 1] }} >
+
                 <p className= "ProjectDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar risus efficitur, pellentesque mi et, euismod dui. Quisque iaculis tortor vel est suscipit, vitae lacinia neque tincidunt. Suspendisse nec dolor vitae urna dapibus finibus ut at mauris. Nunc ut malesuada felis. Fusce convallis, lacus sit amet pellentesque malesuada, urna lacus auctor neque, sit amet faucibus elit nunc sed neque</p>
       </AnimateOnView>
         </div>
         <div className='OutSideContainer'>
-          <ProjectCard></ProjectCard>
-          <ProjectCard></ProjectCard>
-          <ProjectCard></ProjectCard>
-          <ProjectCard></ProjectCard>
+   
+          <AnimateOnView variants={{
+                  hidden: { opacity: 0, y: 50 },
+                  visible: { opacity: 1, y: 0 },}}
+                  transition={{ duration: 1.6, delay: 1.2, ease: [0.25, 0.1, 0.25, 1] }} >
+
+                <ProjectCard></ProjectCard>
+      </AnimateOnView>
+          
+          <AnimateOnView variants={{
+                  hidden: { opacity: 0, y: 50 },
+                  visible: { opacity: 1, y: 0 },}}
+                  transition={{ duration: 1.6, delay: 1.4, ease: [0.25, 0.1, 0.25, 1] }} >
+                <ProjectCard></ProjectCard>
+      </AnimateOnView>
+          <AnimateOnView variants={{
+                  hidden: { opacity: 0, y: 50 },
+                  visible: { opacity: 1, y: 0 },}}
+                  transition={{ duration: 1.6, delay: 1.6, ease: [0.25, 0.1, 0.25, 1] }} >
+                <ProjectCard></ProjectCard>
+      </AnimateOnView>
+          <AnimateOnView variants={{
+                  hidden: { opacity: 0, y: 50 },
+                  visible: { opacity: 1, y: 0 },}}
+                  transition={{ duration: 1.6, delay: 1.8, ease: [0.25, 0.1, 0.25, 1] }} >
+                <ProjectCard></ProjectCard>
+      </AnimateOnView>
         </div>
       </div>
       <div className='AfterWards'>

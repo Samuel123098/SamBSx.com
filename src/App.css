@@ -12,7 +12,7 @@ html, body {
 }
 
 .ProjectsPage{
-  height: 100vh;
+  height: 910px;
   background: linear-gradient(2deg,rgb(27, 27, 27) 0%, rgb(41, 54, 59) 76%);
 }
 
@@ -21,31 +21,34 @@ html, body {
   color: aliceblue;
   font-size: 7vw;
   font-family: Awaken;
-  padding-left: 10px;
+  padding-left: 2vw;
   padding-top: 10px;
+
 }
 .ProjectDesc{
   margin: 0px;
   color: aliceblue;
   font-size: 1.8vw;
   font-family: Awaken;
-  padding-left: 70px;
+  padding-left: 4vw;
   padding-top: 10px;
   width: 40vw;
   text-align: center;
+
 }
 
 .OutSideContainer{
-
+  position: relative;
   background-color: rgba(185, 228, 245, 0.164);
-  width: 50vw;
-  height: 50vw;
-  right: -48.5%;
+  width: 45vw;
+  height: 45vw;
+  right: -53vw;
+ transform-origin: center;
   border-radius: 20px;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  position: relative;
-  bottom: 24vh;
+  grid-template-columns: 2fr 2fr;
+ 
+  bottom: 38vw;
   
 }
